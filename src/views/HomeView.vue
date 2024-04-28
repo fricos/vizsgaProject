@@ -72,7 +72,7 @@
 import CategoryBox from "../components/Category/CategoryBox";
 import ProductBox from "../components/ProductBox";
 export default {
-  name: "Home",
+  name: "HomeView",
   components: {ProductBox, CategoryBox},
   props: ["categories", "products"],
   data() {

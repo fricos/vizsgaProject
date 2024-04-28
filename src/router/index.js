@@ -12,7 +12,7 @@ import ListProducts from '../views/Category/ListProducts.vue';
 import SignUp from '../views/SignUp.vue';
 import SignIn from '../views/SignIn.vue';
 import Help from '../views/HelpView.vue';
-import Cart from '../views/Cart.vue'
+import Cart from '../views/CartView.vue'
 
 
 const routes = [
