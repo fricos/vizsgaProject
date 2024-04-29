@@ -48,7 +48,7 @@
           <h4 class="text-center">Üdvözlünk, mi a Kerekegyensúly bicikli és elektromos roller kölcsönző vagyunk</h4>
           <h3>Célunk:</h3>
           <p>
-            A Szeged város zöldebbé tétele, azzal hogy kibérlelik elekromos rollereinket ahelyett, hogy járművükkel járnának az emberek a mindennapjaikban.
+            A Szeged város zöldebbé tétele, azzal hogy kibérelik elekromos rollereinket ahelyett, hogy járművükkel járnának az emberek a mindennapjaikban.
             A családok és egyéb társaságok számára a szabadság élményét átadni.
             A zöld élet népszerűsítése.
             Mottónk a Mozgás, Élet, Energia.
@@ -59,7 +59,7 @@
             <li>A túrázok minden túra előtt tetszés szerint tudnak választani túravezetőink közül.</li>
             <li>Ha probléma akad a bicikli vagy az elektromos rollerrel kapcsolatban, akkor tudunk segíteni.</li>
             <li>Turisták számára a cégünk kínál e-térképet rajta a látványosságokkal illetve népszerű útvonalainkal.</li>
-            <li>A vásárlóink a lehető legjobb és legmodernebb bicikli és ellektromos roller kínálatból válasszhassanak.</li>
+            <li>A vásárlóink a lehető legjobb és legmodernebb bicikli és ellektromos roller kínálatból válaszhatnak.</li>
             <li>Mindezek mellett a túrázóknak van lehetőség többféle túraútvonal kiválasztására is, a hangulatos rövid családi kirándulás vagy akár a több napig is tartó túrák, nálunk mindent megtalál.</li>
           </ul>
         </div>
@@ -69,7 +69,7 @@
 </template>
 
 <script>
-import CategoryBox from "../components/Category/CategoryBox";
+import CategoryBox from "../components/category/CategoryBox";
 import ProductBox from "../components/ProductBox";
 export default {
   name: "HomeView",

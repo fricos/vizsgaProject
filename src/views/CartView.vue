@@ -3,7 +3,7 @@
       <div class="row">
         <div class="col-12 text-center">
           <h3 class="pt-3">
-            Shopping cart
+            Bevásárló kocsi
           </h3>
         </div>
       </div>
@@ -24,14 +24,14 @@
             </h6>
   
             <p class="mb-0 font-weight-bold" id="item-price">
-              $ {{ cartItem.product.price }} per unit
+              Ft {{ cartItem.product.price }} per darab
             </p>
-            <p class="mb-0">Quantity:{{ cartItem.quantity }}</p>
+            <p class="mb-0">Mennyiség:{{ cartItem.quantity }}</p>
           </div>
           <p class="mb-0">
-            Total:
+            Összesen:
             <span class="font-weight-bold">
-              $ {{ cartItem.product.price * cartItem.quantity }}
+              Ft {{ cartItem.product.price * cartItem.quantity }}
             </span>
           </p>
         </div>
@@ -39,7 +39,7 @@
         <div class="col-12"><hr /></div>
       </div>
       <div class="total-cost pt-2 text-right">
-        <h5>Total : ${{ totalCost }}</h5>
+        <h5>Összesen : Ft{{ totalCost }}</h5>
       </div>
     </div>
   </template>

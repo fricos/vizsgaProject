@@ -64,10 +64,10 @@
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownAdmin">
             <router-link class="dropdown-item" :to="{ name: 'AdminCategory' }"
-              >Category</router-link
+              >Kategória</router-link
             >
             <router-link class="dropdown-item" :to="{ name: 'AdminProduct' }"
-              >Products</router-link
+              >Termékek</router-link
             >
           </div>
         </li>
@@ -83,10 +83,10 @@
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarAccount">
             <router-link class="dropdown-item" :to="{ name: 'ProductPage' }"
-              >Product
+              >Termék
             </router-link>
             <router-link class="dropdown-item" :to="{ name: 'Category' }"
-              >Category
+              >Kategória
             </router-link>
           </div>
         </li>

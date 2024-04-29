@@ -24,7 +24,7 @@
 </template>
 <script>
 
-import CategoryBox from '@/components/Category/CategoryBox.vue';
+import CategoryBox from '@/components/category/CategoryBox.vue';
 export default {
   name: "CategoryView",
   props:["categories"],
